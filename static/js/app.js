@@ -87,14 +87,11 @@ console.log(otu_id_labels)
 
 //slicing and filtering the sample values: 
 
-let filteredSampVal = sample_values.sort((a, b) => (b-a)).slice(0, 10)
-console.log(filteredSampVal)
-
 
 let barTrace = { 
 type:"bar",
-x: filteredSampVal,
-y: otu_id_labels,
+x: sample_values.slice(0,10).reverse(),
+y: otu_id_labels.slice(0,10).reverse(),
 orientation: 'h'
 }
 
