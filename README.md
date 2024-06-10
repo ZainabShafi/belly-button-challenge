@@ -1,6 +1,6 @@
 # belly-button-challenge
 
-##OVERVIEW: 
+**OVERVIEW:**
 
 Created an interactive dashboard utilizing Javascript, D3.js and Plotly that explored the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity/) which catalogs the microbes that inhabit human navels. The dataset shows that a few microbial species, referred to as operational taxonomic units (OTUs) in the study, were found in over 70% of individuals, while the remaining species were relatively uncommon. The interactive site has been added to Github pages. 
 
@@ -10,6 +10,7 @@ D3.js (for data manipulation and DOM operations)
 Plotly.js (for charting)
 HTML
 
+**----------------------------------------------------------------------------------------------------------------**
 
 **Functions:**
 
